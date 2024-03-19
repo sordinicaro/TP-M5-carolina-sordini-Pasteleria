@@ -1,0 +1,42 @@
+[
+ {
+  "info":{
+      "nombre": "Pastelería Dulce Delicia",
+      "apertura": "2000",
+      "cantidadEmpleados": "10",
+      "dueño": "Carolina Sordini",
+      "horarios":"9am a 19pm",
+      "empleados": [
+          {
+              "empleado": 1,
+              "nombre": "María García",
+              "edad": 28,
+              "tel": "123456789",
+              "email": "maria@example.com",
+              "token":""
+          },
+          {
+              "empleado": 2,
+              "nombre": "Pedro Rodríguez",
+              "edad": 35,
+              "tel": "987654321",
+              "email": "pedro@example.com",
+              "token":""
+
+          }
+      ],
+      "tortas": [
+          {
+              "torta": "Torta de Chocolate",
+              "ingredientes": ["Chocolate", "Harina", "Azúcar", "Huevos"],
+              "tamaño": "Grande"
+          },
+          {
+              "torta": "Torta de Vainilla",
+              "ingredientes": ["Vainilla", "Harina", "Azúcar", "Huevos"],
+              "tamaño": "Mediano"
+          }
+      ]
+    }
+  }
+  ]
