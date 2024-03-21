@@ -1,0 +1,22 @@
+### valor inicial
+
+GET http://localhost:4356
+
+### ver version
+
+GET http://localhost:4356/api
+
+
+### crear usuario
+
+POST http://localhost:4356/api/users/register
+Content-Type: application/json
+
+{
+     "empleado": 4,
+     "nombre": "Emilia Sanchez",
+     "edad": 35,
+     "tel": "2665789065",
+     "email": "emilia@gmail.com",
+     "password":"sapito"
+}

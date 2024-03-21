@@ -51,15 +51,6 @@
             "password": "sapito",
             "email": "emilia@gmail.com",
             "token": ""
-        },
-        {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
-            "password": "sapito",
-            "email": "emilia@gmail.com",
-            "token": ""
         }
     ],
     "tortas": [
