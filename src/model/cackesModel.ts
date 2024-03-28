@@ -17,99 +17,58 @@ abstract class CackesModel {
             return { error: "Existing cacke" };
         }
 
-        const newEmployee = { id, cacke, ingredients, size }
-        db.employees.push(newEmployee);
+        const newCacke = { id, cacke, ingredients, size }
+        db.cakes.push(newCacke);
 
         jsonfile.writeFileSync("./src/db/pasteleria.json", db);
 
-        return { message: "Employee created successfully" };
+        return { message: "Cacke created successfully" };
     }
 
 
-    static readUserByEmail = (email: string) => {
-        const user = db.employees.find((u) => u.email === email);
-        if (!user) return 404;
-        return user;
+    static readUserById = (id: string) => {
+        const cacke = db.cakes.find((c) => c.id === id);
+        if (!cacke) return 404;
+        return cacke;
     };
 
-    static updateUser = (objUser: any) => {
+    static updateCacke = (objUser: any) => {
         try {
-            const { employee, username, age, phone, password, email, token } = objUser;
+            const { id, cacke, ingredients, size } = objUser;
 
-            const user = db.employees.find((n) => n.username === username);
+            const cackes = db.cakes.find((c) => c.id === id);
 
-            if (!user) {
-                return { error: "User not found" };
+            if (!cackes) {
+                return { error: "Cackes not found" };
             }
 
-            if (username) user.username = username;
-            if (employee) user.employee = employee;
-            if (age) user.age = age;
-            if (phone) user.phone = phone;
-            if (password) user.password = password;
-            if (email) user.email = email;
-            if (token) user.token = token;
+            if (id) cackes.id = id;
+            if (cacke) cackes.cacke = cacke;
+            if (ingredients) cackes.ingredients = ingredients;
+            if (size) cackes.size = size;
 
 
             jsonfile.writeFileSync("./src/db/pasteleria.json", db);
         } catch (error) {
             return new Error();
         }
-        return { message: "Successfully modified user" };
+        return { message: "Successfully modified cacke" };
     };
 
 
 
-    static deleteUser = (username: string) => {
-        const user = db.employees.find((n) => n.username === username);
-        if (!user) {
-            return { error: "user not found" };
+    static deleteUser = (id: string) => {
+        const cacke = db.cakes.find((c) => c.id === id);
+        if (!cacke) {
+            return { error: "cacke not found" };
         }
-        const employees = db.employees.filter((employee) => employee.username !== username);
-        db.employees = employees;
+        const cackes = db.cakes.filter((c) => c.id !== id);
+        db.cakes = cackes;
 
         jsonfile.writeFileSync("./src/db/pasteleria.json", db);
 
-        return { message: "Successfully delete user" };
+        return { message: "Successfully delete cacke" };
     };
-
-    static login = (objUser: any) => {
-        try {
-            const { username, password } = objUser;
-
-            const user = db.employees.find((u) => u.username === username);
-
-            if (!user) return 404;
-
-            if (user.password !== password) return 400;
-
-            const token = randomUUID();
-
-            user.token = token;
-
-            jsonfile.writeFileSync("./src/db/pasteleria.json", db);
-        } catch (error) {
-            return new Error();
-        }
-        return { message: "Logged User" };
-    };
-
-
-    static logout = (username: string) => {
-        const user = db.employees.find((u) => u.username === username);
-
-        if (!user) return { error: "user not found" };
-
-        user.token = "";
-
-        jsonfile.writeFileSync("./src/db/pasteleria.json", db);
-
-        return { message: "Log out User" };
-    };
-
-
-
-
 
 
 

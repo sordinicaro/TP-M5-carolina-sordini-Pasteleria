@@ -108,8 +108,7 @@
                 "Sugar",
                 "Egg"
             ],
-            "size": "Big",
-            "token": ""
+            "size": "Big"
         },
         {
             "id": "",
@@ -120,8 +119,7 @@
                 "Sugar",
                 "Egg"
             ],
-            "size": "Medium",
-            "token": ""
+            "size": "Medium"
         }
     ]
 }
