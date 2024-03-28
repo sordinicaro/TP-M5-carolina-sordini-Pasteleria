@@ -2,7 +2,14 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.userRouters = void 0;
 const userController_1 = require("../controller/userController");
+const validator_1 = require("../middlware/validator");
 const express_1 = require("express");
 const userRouters = (0, express_1.Router)();
 exports.userRouters = userRouters;
+userRouters.post("/login", userController_1.UserController.login);
+userRouters.delete("/logout", validator_1.validateAuth, userController_1.UserController.logout);
+userRouters.get("/", userController_1.UserController.readUser);
 userRouters.post("/register", userController_1.UserController.createUser);
+userRouters.get("/:email", userController_1.UserController.readUserByEmail);
+userRouters.patch("/:username", validator_1.validateAuth, userController_1.UserController.updateUser);
+userRouters.delete("/:username", validator_1.validateAuth, userController_1.UserController.deleteUser);

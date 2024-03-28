@@ -9,7 +9,7 @@ const validateAuth = (req, res, next) => {
     const token = req.get("Authorization");
     if (!token)
         return res.status(401).json({ error: "Unauthorized" });
-    const exists = pasteleria_json_1.default.empleados.find((u) => u.token === token);
+    const exists = pasteleria_json_1.default.employees.find((u) => u.token === token);
     if (!exists)
         return res.status(401).json({ error: "Unauthorized" });
     next();

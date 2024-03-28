@@ -1,78 +1,114 @@
 {
     "info": {
-        "nombre": "Pastelería Dulce Delicia",
-        "apertura": "2000",
-        "cantidad de Empleados": "10",
-        "dueño": "Carolina Sordini",
-        "horarios": "9am a 19pm"
+        "name": "Pastelería Dulce Delicia",
+        "opening": "2000",
+        "numberOfEmployees": "10",
+        "boss": "Carolina Sordini",
+        "hours": "9am a 19pm"
     },
-    "empleados": [
+    "employees": [
         {
-            "empleado": 1,
-            "nombre": "María García",
-            "edad": 28,
-            "tel": "123456789",
-            "email": "maria@example.com",
+            "employee": 2,
+            "username": "Pedro Rodríguez",
             "password": "",
-            "token": ""
-        },
-        {
-            "empleado": 2,
-            "nombre": "Pedro Rodríguez",
-            "edad": 35,
-            "tel": "987654321",
+            "age": 35,
+            "phone": "987654321",
             "email": "pedro@example.com",
-            "password": "",
             "token": ""
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
+            "employee": 60,
+            "username": "Emilia Sanchez",
             "password": "sapito",
+            "age": 93,
+            "phone": "2665789065",
             "email": "emilia@gmail.com",
             "token": ""
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
+            "employee": 3,
+            "username": "Emilia Sanchez",
             "password": "sapito",
+            "age": 35,
+            "phone": "2665789065",
             "email": "emilia@gmail.com",
             "token": ""
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
-            "password": "sapito",
-            "email": "emilia@gmail.com",
+            "employee": 5,
+            "username": "Micaela",
+            "password": "0a3974dbb8eed122d24b0c567740868627dc7ebb4abb9970beb1fd7abb40383e",
+            "age": 23,
+            "phone": "26657dssd89065",
+            "email": "emilia@rtggmail.com",
+            "token": ""
+        },
+        {
+            "employee": "2fcd4272-f732-4281-aabb-c276fe061ab1",
+            "username": "Ailen",
+            "age": 31,
+            "phone": "266535677",
+            "password": "6557739a67283a8de383fc5c0997fbec7c5721a46f28f3235fc9607598d9016b",
+            "email": "ailen@gmail.com",
+            "token": ""
+        },
+        {
+            "employee": "1a9ab001-938d-490e-b236-62ebf3d3a390",
+            "username": "taty",
+            "age": 18,
+            "phone": "266535673",
+            "password": "b2b2f104d32c638903e151a9b20d6e27b41d8c0c84cf8458738f83ca2f1dd744",
+            "email": "taty@gmail.com",
+            "token": "a41c1dc6-3ca5-4983-b1bb-a76374f5c751"
+        },
+        {
+            "employee": "ee15c40f-2e57-46cc-ab0d-373f57eaa2f4",
+            "username": "Candela",
+            "age": 18,
+            "phone": "266535973",
+            "password": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+            "email": "cande@gmail.com",
+            "token": ""
+        },
+        {
+            "employee": "ecdb2407-9b72-445f-81fd-074a4cdf3680",
+            "username": "matias",
+            "age": 27,
+            "phone": "278535673",
+            "password": "6ae9e4d22c4670b9140fc378214b3274fb3f64d16058717f974515000680b24c",
+            "email": "matias@gmail.com",
+            "token": ""
+        },
+        {
+            "employee": "4ffc727d-02ff-41dd-8cb7-f74280415129",
+            "username": "Yesica",
+            "age": 37,
+            "phone": "278535673",
+            "password": "8f0f97e140e126a4404a09eb1e14a53b7c742701c4290a5d1702d14daec22ee8",
+            "email": "yesica@gmail.com",
             "token": ""
         }
     ],
-    "tortas": [
+    "cakes": [
         {
-            "torta": "Torta de Chocolate",
-            "ingredientes": [
+            "cacke": "Cacke of Chocolate",
+            "Ingredients": [
                 "Chocolate",
-                "Harina",
-                "Azúcar",
-                "Huevos"
+                "Flour",
+                "Sugar",
+                "Egg"
             ],
-            "tamaño": "Grande"
+            "size": "Big"
         },
         {
-            "torta": "Torta de Vainilla",
-            "ingredientes": [
-                "Vainilla",
-                "Harina",
-                "Azúcar",
-                "Huevos"
+            "cacke": "Cacke of Vanilla",
+            "ingredients": [
+                "Vanilla",
+                "Flour",
+                "Sugar",
+                "Egg"
             ],
-            "tamaño": "Mediano"
+            "size": "Medium"
         }
     ]
 }

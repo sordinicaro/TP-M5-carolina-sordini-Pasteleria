@@ -1,87 +1,127 @@
 {
     "info": {
-        "nombre": "Pastelería Dulce Delicia",
-        "apertura": "2000",
-        "cantidad de Empleados": "10",
-        "dueño": "Carolina Sordini",
-        "horarios": "9am a 19pm"
+        "name": "Pastelería Dulce Delicia",
+        "opening": "2000",
+        "numberOfEmployees": "10",
+        "boss": "Carolina Sordini",
+        "hours": "9am a 19pm"
     },
-    "empleados": [
+    "employees": [
         {
-            "empleado": 1,
-            "nombre": "María García",
-            "edad": 28,
-            "tel": "123456789",
-            "email": "maria@example.com",
-            "password": "",
-            "token": ""
+            "employee": "ee15c40f-2e57-46cc-ab0d-373f57eaa2f4",
+            "username": "Candela Lafurcade",
+            "age": 18,
+            "phone": "266535973",
+            "password": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+            "email": "cande@gmail.com",
+            "token": "0a1930ec-7889-4a27-aca0-c18084394055"
         },
         {
-            "empleado": 2,
-            "nombre": "Pedro Rodríguez",
-            "edad": 35,
-            "tel": "987654321",
-            "email": "pedro@example.com",
-            "password": "",
-            "token": ""
+            "employee": "ecdb2407-9b72-445f-81fd-074a4cdf3680",
+            "username": "Matias Alaniz",
+            "age": 27,
+            "phone": "278535673",
+            "password": "6ae9e4d22c4670b9140fc378214b3274fb3f64d16058717f974515000680b24c",
+            "email": "matias@gmail.com",
+            "token": "313e3173-59f7-48a7-b825-d0eb3459cb11"
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
-            "password": "sapito",
-            "email": "emilia@gmail.com",
-            "token": ""
+            "employee": "4ffc727d-02ff-41dd-8cb7-f74280415129",
+            "username": "Yesica Gallardo",
+            "age": 37,
+            "phone": "278535673",
+            "password": "8f0f97e140e126a4404a09eb1e14a53b7c742701c4290a5d1702d14daec22ee8",
+            "email": "yesica@gmail.com",
+            "token": "cdb1acc4-c453-4933-bcb8-3d6027f69a98"
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
-            "password": "sapito",
-            "email": "emilia@gmail.com",
-            "token": ""
+            "employee": "457c993b-8455-40b5-89ec-9daba3f04a45",
+            "username": "Ricardo Paez",
+            "age": 37,
+            "phone": "2656123456",
+            "password": "023e33504ab909cf87a6f4e4e545090e40bdc0a2153e5b68b19f7fad2b737904",
+            "email": "rick@gmail.com",
+            "token": "c3f0de48-48ec-4aa6-8052-023109693436"
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
-            "password": "sapito",
-            "email": "emilia@gmail.com",
-            "token": ""
+            "employee": "07b2dcc3-f0ec-409b-9fe8-dee498bfefe3",
+            "username": "Daniela Sordini",
+            "age": 37,
+            "phone": "2656345623",
+            "password": "35a99a53ff1b46f86a14a375742dfd7fefff96a8a2e9c4bcf0fe3546c36c9520",
+            "email": "daniela@gmail.com",
+            "token": "811b1b9d-88ef-4ca6-b6fe-d5cf1c30b3f5"
         },
         {
-            "empleado": 3,
-            "nombre": "Emilia Sanchez",
-            "edad": 35,
-            "tel": "2665789065",
-            "password": "sapito",
-            "email": "emilia@gmail.com",
-            "token": ""
+            "employee": "e2e31a94-d166-4262-a066-a83598e2af73",
+            "username": "Emilia Sanchez",
+            "age": 24,
+            "phone": "2656346789",
+            "password": "08c159cb811c2742199fed6b07c10860a7b8e777515377e20fe0f2d90f230657",
+            "email": "E.sanchez@gmail.com",
+            "token": "e3adee5e-de13-4060-ae87-7d10dc300720"
+        },
+        {
+            "employee": "2bf2dcb2-5645-4ba7-8c5f-42a8b74cf0be",
+            "username": "Monica Alegria",
+            "age": 33,
+            "phone": "265638976",
+            "password": "cdf16f3eb80dcb59e3169cb7e138695dc26baee36df5258c0dc04657c190368a",
+            "email": "monica@gmail.com",
+            "token": "78220d48-6e4d-4280-a57c-6032123d043b"
+        },
+        {
+            "employee": "6ad08679-011a-4876-879b-ab5039fdae68",
+            "username": "Alyssa Alaniz",
+            "age": 18,
+            "phone": "265639876",
+            "password": "b9f24b9a4aba14556f8b8d0f1c3a47b569a7c2982cd28d6bc711624b69431fa1",
+            "email": "Aly@gmail.com",
+            "token": "a63b3776-2701-42e8-8109-a46e2898d0c9"
+        },
+        {
+            "employee": "a94b3f15-932e-4ac9-b256-eddf9fabf871",
+            "username": "Victoria Alaniz",
+            "age": 19,
+            "phone": "265639896",
+            "password": "dc2ee521c7b4ea99d986e81943f544268bc4a7496a235aaac475b1be93b95b9f",
+            "email": "viky@gmail.com",
+            "token": "995b556b-dabb-4773-9160-babea80fabef"
+        },
+        {
+            "employee": "943d3f6f-ba0f-4384-869d-3061e52d41c1",
+            "username": "Cristina Milano ",
+            "age": 29,
+            "phone": "265698765",
+            "password": "87e44f674be0398844cf8ebd2b3553b8f6da39446c262380db0b49dacad5958f",
+            "email": "C.MILANO@gmail.com",
+            "token": "769bd7bd-0878-48de-8381-7b6c44edad87"
         }
     ],
-    "tortas": [
+    "cakes": [
         {
-            "torta": "Torta de Chocolate",
-            "ingredientes": [
+            "id": "",
+            "cacke": "Cacke of Chocolate",
+            "Ingredients": [
                 "Chocolate",
-                "Harina",
-                "Azúcar",
-                "Huevos"
+                "Flour",
+                "Sugar",
+                "Egg"
             ],
-            "tamaño": "Grande"
+            "size": "Big",
+            "token": ""
         },
         {
-            "torta": "Torta de Vainilla",
-            "ingredientes": [
-                "Vainilla",
-                "Harina",
-                "Azúcar",
-                "Huevos"
+            "id": "",
+            "cacke": "Cacke of Vanilla",
+            "ingredients": [
+                "Vanilla",
+                "Flour",
+                "Sugar",
+                "Egg"
             ],
-            "tamaño": "Mediano"
+            "size": "Medium",
+            "token": ""
         }
     ]
 }
